@@ -3,6 +3,15 @@
 
 This script provides functionalities to install and uninstall Python packages while updating the `INSTALLED_APPS` in a Django `settings.py` file. It uses progress bars for visual feedback during installation and uninstallation processes.
 
+## Problem Statement
+
+Managing Python packages in a Django project can be cumbersome, especially when it comes to ensuring that newly installed packages are added to the `INSTALLED_APPS` list, or when removing packages that are no longer needed. This script aims to streamline the process by:
+
+- Automatically installing missing packages.
+- Uninstalling packages that are no longer required.
+- Updating the `INSTALLED_APPS` list in a Django project's `settings.py` file to reflect these changes.
+- Providing visual feedback through progress bars during these operations.
+
 ## Features
 
 - Installs missing Python packages.
