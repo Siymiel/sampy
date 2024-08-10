@@ -18,7 +18,7 @@ setup(
     description="A package to automate Django package installation and uninstallation.",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/mypackage",  # Replace with your GitHub URL
+    url="https://github.com/Siymiel/sampy",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
